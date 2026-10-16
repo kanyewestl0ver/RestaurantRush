@@ -7,15 +7,15 @@ import java.util.Optional;
 public interface GameView {
     void showTurnHeader(int turn, int maxTurns);
 
-    void showState(Restaurant r, GameStats stats);
+    //void showState(Restaurant r, GameStats stats);
 
-    WaiterTask chooseWaiterTask(List<WaiterTask> tasks);
+    //WaiterTask chooseWaiterTask(List<WaiterTask> tasks);
 
-    Optional<Customer> chooseCustomer(String prompt, List<Customer> options);
+    //Optional<Customer> chooseCustomer(String prompt, List<Customer> options);
 
-    Optional<Order> chooseOrder(String prompt, List<Order> options);
+    //Optional<Order> chooseOrder(String prompt, List<Order> options);
 
-    Optional<Order> chooseChefOrder(List<Order> options);
+    //Optional<Order> chooseChefOrder(List<Order> options);
 
     void showMessage(String message);
 
